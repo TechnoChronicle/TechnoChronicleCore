@@ -19,3 +19,10 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+/run/*
+!/run/mods
+/run-data/*
+!/run-data/mods
+
+src/generated/
