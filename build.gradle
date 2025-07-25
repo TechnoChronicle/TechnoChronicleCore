@@ -135,6 +135,8 @@ configurations {
 dependencies {
     compileOnly("org.projectlombok:lombok:1.18.32")
     annotationProcessor("org.projectlombok:lombok:1.18.32")
+    
+    compileOnly "curse.maven:configuration-444699:5774720" //Configuration 3.1.0
 
     compileOnly "curse.maven:applied-energistics-2-223794:6488853" //AE2 19.2.10
     
